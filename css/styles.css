@@ -1,0 +1,29 @@
+#slide1 {
+  background-image: url('../img/wood-2.jpg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slide1 img {
+  max-height: 55vh;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+}
+
+#slide2 {
+  background-image: url('../img/restaurant-2.jpg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#slide3 {
+  background-image: url('../img/farm-2.jpg');
+  min-height: 75vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
