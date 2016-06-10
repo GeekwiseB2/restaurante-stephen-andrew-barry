@@ -1,9 +1,9 @@
-.navbar {
+/* NAV BAR */
+.navbar-default {
     background: transparent;
     border-color: transparent;
     min-height:32px !important;
 }
-
 .navbar-default .navbar-nav > li >a {
   color: white;
   font-size: 11px;
@@ -14,27 +14,26 @@
   padding-right: 9px;
   padding-left: 9px;
 }
-
 .navbar-default .navbar-nav > li.active > a {
-  background-color: black;
-  /*opacity: 0.3;*/
+  background-color: rgba(0, 0, 0, 0.4);
 }
-
+.navbar-default .navbar-nav > li.active > a:hover {
+  color: #333;
+}
 .navbar-brand {
   padding-top: 4px;
   padding-left: 10px;
 }
-
 .navbar-brand img {
   max-width: 160px;
 }
-
 .navbar-default .navbar-nav>.active>a,
 .navbar-default .navbar-nav>.active>a:focus,
 .navbar-default .navbar-nav>.active>a:hover {
   color: white;
 }
 
+/* CAROUSEL */
 #slide1 {
   background-image: url('../img/wood-2.jpg');
   min-height: 70vh;
@@ -42,13 +41,11 @@
   background-size: cover;
   background-position: center;
 }
-
 #slide1 img {
   max-height: 55vh;
-  padding-top: 10vh;
-  padding-bottom: 10vh;
+  padding-top: 15vh;
+  padding-bottom: 4vh;
 }
-
 #slide2 {
   background-image: url('../img/restaurant-2.jpg');
   min-height: 70vh;
@@ -56,11 +53,83 @@
   background-size: cover;
   background-position: center;
 }
-
 #slide3 {
   background-image: url('../img/farm-2.jpg');
   min-height: 70vh;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
+
+/*OUR STORY SECTION*/
+#story {
+  padding: 5%;
+}
+.heading {
+  font-size: 70px;
+  font-family: 'Lobster', cursive;
+  color: #F8512F;
+  text-shadow: 2px 2px 5px #000;
+}
+#story h3 {
+  font-weight: 700;
+  margin-top: 0;
+}
+#story p {
+  font-family: 'Raleway', sans-serif;
+  font-size: 11px;
+}
+#year {
+  z-index: -1;
+  position: absolute;
+  color: #e9e9e9;
+  font-size: 180px;
+  font-family: 'Playfair Display', serif;
+  margin-top: -25px;
+}
+
+/* FOOD-REVIEW SECTION */
+#food-review {
+  background-image: url('../img/food_review.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+}
+#food-review .food-background {
+  background-color: rgba(0, 0, 0, 0.6);
+  margin-top: 5%;
+  padding: 3%;
+}
+#food-review h3 {
+    color: white;
+    font-size: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* MENU SECTION */
+#home {
+  padding: 3%;
+  background-color: #fff;
+}
+#home h1 {
+  font-weight: 700;
+  text-align: center;
+}
+#home p {
+  text-align: justify;
+}
+#menu {
+  background-image: url('../img/black_linen.png');
+}
+#menu-h1 {
+  color: #fff;
+  font-size: 100px;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width : 767px) {
+
 }
